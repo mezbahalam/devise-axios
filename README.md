@@ -30,7 +30,7 @@ You can also change the default auth url and options
 
 This works with ReactNative as well. (What?)
 ```javascript
-import { AsyncStorage } from 'react-native'
+import AsyncStorage from '@react-native-community/async-storage';
 import initMiddleware from 'devise-axios'
 
 initMiddleware({ storage: AsyncStorage })
